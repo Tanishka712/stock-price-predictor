@@ -147,8 +147,3 @@ Made with ❤️ by **Tanishka Nagawade**
 Feel free to connect or contribute!
 
 ```
-
-Let me know if you’d like:
-- This added directly into your `README.md` file.
-- A version with a GitHub badge, screenshot placeholders, or deploy instructions for [Streamlit Cloud](https://streamlit.io/cloud).
-```
