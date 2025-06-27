@@ -74,8 +74,9 @@ for i in range(100, data_test_scale.shape[0]):
 
 x_test, y_test = np.array(x_test), np.array(y_test)
 
-model_path = r'C:\Users\taish\OneDrive\Documents\mypythonprojects\stock prize detection\stock pred model.keras'
+model_path = 'model/stock pred model.keras'
 model = load_model(model_path)
+
 
 predicted = model.predict(x_test)
 scale = 1 / scaler.scale_[0]
