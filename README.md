@@ -1,16 +1,19 @@
-````markdown
 # 📈 Stock Price Predictor Using RNN
+
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://stock-price-predict.streamlit.app/)
 
 A web-based stock price prediction app built with **Streamlit**, **Keras**, and **Plotly**. This project leverages historical stock data and an RNN (LSTM-based) model to forecast future stock prices. The app supports both short- and long-term forecasts and presents visual insights using interactive plots.
 
 ---
 
-## 🚀 Demo
+## 🚀 Live Demo
 
-> Run it locally using the command:
+👉 [Click here to try the app](https://stock-price-predict.streamlit.app/)
+
+> Or run it locally using the command:
 ```bash
 streamlit run app.py
-````
+```
 
 ---
 
@@ -31,15 +34,15 @@ streamlit run app.py
 .
 ├── initial app versions/         # Old app versions (if any)
 ├── model/                        # Contains training notebook and saved model
-│   └── stock pred model.keras    # Trained model
+│   └── stock_pred_model.keras    # Trained model
 ├── app.py                        # Streamlit web application
 ├── README.md                     # Project documentation
-├── requirements.txt              # Project Requirements
+├── requirements.txt              # Project requirements
 ```
 
 ---
 
-## 🧾 How to Use
+## 🧾 How to Use Locally
 
 ### 1. Clone the Repository
 
@@ -93,8 +96,8 @@ LSTM (50 units, relu) + Dropout(0.2)
 → Dense(1)
 ```
 
-* Trained for 50 epochs using `adam` optimizer and `mean_squared_error` loss
-* Scaled using `MinMaxScaler`
+* Trained for 50 epochs using `adam` optimizer and `mean_squared_error` loss  
+* Scaled using `MinMaxScaler`  
 * Window size: 100 time steps
 
 ---
@@ -143,7 +146,6 @@ These help assess how closely predictions match actual stock values.
 
 ## 📬 Contact
 
-Made with ❤️ by **Tanishka Nagawade**
+Made with ❤️ by **Tanishka Nagawade**  
 Feel free to connect or contribute!
 
-```
